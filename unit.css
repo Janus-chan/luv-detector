@@ -1,0 +1,175 @@
+*{
+    margin: 0%;
+}
+.zeus{
+    position: relative;
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    position: relative;
+    font-size: 10px;
+    font-family: 'Merienda', cursive;
+    background: #efd6d1;
+    overflow: hidden;
+}
+nav{
+    background-color: lavenderblush;
+   
+}
+nav ul {
+    display :flex   ;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px;
+    font-size: 1.3rem;
+}
+h1{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(141, 139, 139);
+
+}
+h3{
+    color: rgb(90, 88, 88);
+}
+#inner{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction:column;
+}
+.datas{
+    display: flex;
+    flex-direction: row;
+    padding:0px  40px 60px;
+}
+input[type="text"]
+{
+    font-size:1rem;
+    font-family: 'Patrick Hand', cursive;
+}
+button{
+    font-size: 1rem;
+    width: 100px;
+    height: 45px;
+    border-radius: 34%;
+    background-color: #e79a9a;
+    box-shadow: inset -4px 4px 8px #ad7474,
+    inset 4px -4px 8px #ffc1c1;
+    border:none;
+    padding: 4px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color: #bd8484;
+    color: rgb(199, 185, 185);
+}
+
+#counter{
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.ball{
+    /* background: #9ce29c; */
+    font-size: 4rem;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #efd6d1;
+    box-shadow:  -19px 19px 38px #d0bab6,
+                 19px -19px 38px #fff2ec;
+   padding: 50px;
+   margin: 20px;
+   color: lightcoral;
+   text-shadow:   2px 2px 4px #cbb6b2,
+   -2px -2px 4px #fff6f0;
+}
+
+.datas-right-name , .datas-left-name{
+    padding: 10%;
+    width: 50vw;
+    font-size: 1rem;
+ }
+
+ .inputs--center{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+ }
+ .leftname,.rightname{
+    box-shadow:  4px 4px 8px #cbb6b2,
+    -4px -4px 8px #fff6f0;
+    outline:none;
+    border:none;
+    margin: 10px;
+ }
+
+
+ @media (max-width:1024px) {
+
+    html,body{
+        overflow-x: hidden;
+    }
+    .zeus{
+        overflow-x: hidden;
+    }
+    .ball{
+
+        font-size: 3rem;
+        height: 50px;
+        width: 50px;
+    }
+    .datas{
+        display: flex;
+        flex-direction: column ;
+        padding:0px ;
+        align-items: center;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    nav ul li {
+        list-style: none;
+        margin: 10px;
+        font-size: 1rem;
+    }
+    
+    button{
+
+        font-size: .7rem;
+        width: 80px;
+        height: 30px;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    .datas-right-name{
+        margin-top: -20px;
+    }
+ }
+
+
+ @viewport{
+    width: device-width;
+    zoom:1.0;
+  }
+
